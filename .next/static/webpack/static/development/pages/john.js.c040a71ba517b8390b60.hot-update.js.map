@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/john.js.c040a71ba517b8390b60.hot-update.js","sources":["webpack:///./pages/john.js"],"sourcesContent":["export default () => (\r\n    <h1>Welcome to John!</h1>\r\n  )"],"mappings":";;;;;;;;;;;;;;;AAAA;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AADA;;;;;;;;;;;;;;;;;;;;;;;A","sourceRoot":""}

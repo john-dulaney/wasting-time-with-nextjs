@@ -14,7 +14,7 @@ class AboutPage extends Component {
         <section>
           <p>
             {" "}
-            <strong>{this.props.isServer ? "server" : "client"} side</strong>.
+            <strong>{this.props.isServer ? "I am a server Rendered React component" : "client"}</strong>.
           </p>
           <Link href="/">
             <a>Go to Index.js</a>
