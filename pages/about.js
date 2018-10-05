@@ -1,6 +1,6 @@
 import { Component } from "react";
-import Link from "next/link";
-// import Header from "../components/header";
+import AboutBody from "../components/AboutBody";
+import Header from "../components/Header";
 
 class AboutPage extends Component {
   static getInitialProps() {
@@ -10,15 +10,12 @@ class AboutPage extends Component {
   render() {
     return (
       <main>
-        {/* <Header /> */}
+        <Header />
         <section>
           <p>
-            {" "}
-            <strong>{this.props.isServer ? "I am a server Rendered React component" : "client"}</strong>.
+            {/* {" "} */}
+            {this.props.isServer ? <AboutBody /> : "client"}
           </p>
-          <Link href="/">
-            <a>Go to Index.js</a>
-          </Link>
         </section>
       </main>
     );
