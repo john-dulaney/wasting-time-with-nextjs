@@ -1,20 +1,17 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add next react react-dom
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install
 
 PATH: 
-  /home/jdulaney/bin:/home/jdulaney/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/root/go/bin:/home/jdulaney/.fzf/bin:/snap/bin:/home/jdulaney/.dotnet/tools
+  /usr/local/bin:/usr/local/sbin:/Users/j/.yarn/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands
 
 Yarn version: 
-  1.10.1
+  1.5.1
 
 Node version: 
-  10.11.0
+  8.6.0
 
 Platform: 
-  linux x64
-
-Trace: 
-  Error: ENOENT: no such file or directory, scandir '/mnt/c/Users/jdulaney/nextTrial/node_modules/@babel'
+  darwin x64
 
 npm manifest: 
   {
@@ -22,7 +19,8 @@ npm manifest:
     "scripts": {
       "dev": "next",
       "build": "next build",
-      "start": "next start"
+      "start": "next start",
+      "export": "next export"
     },
     "dependencies": {
       "next": "^7.0.1",
@@ -4705,3 +4703,14 @@ Lockfile:
     version "3.0.2"
     resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
     integrity sha1-hFK0u36Dx8GI2AQcGoN8dz1ti7k=
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at checkOne (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:62444:11)
+      at Object.check (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:62463:5)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
