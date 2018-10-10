@@ -14,7 +14,7 @@ class AboutPage extends Component {
         <section>
           <p>
             {/* {" "} */}
-            {this.props.isServer ? <AboutBody /> : "client"}
+            {this.props.isServer ? <AboutBody /> : "Nav is client side, my about page is server side, if you are seeing this reload. Working on how to make the server call on nav route."}
           </p>
         </section>
       </main>
