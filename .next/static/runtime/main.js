@@ -5706,7 +5706,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/j/Workspace/Random notes and files/wasting-time-with-nextjs/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/c/Users/jdulaney/nextTrial/.next");
       return error;
     }
   };
@@ -17967,7 +17967,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/j/Workspace/Random notes and files/wasting-time-with-nextjs/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /mnt/c/Users/jdulaney/nextTrial/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),

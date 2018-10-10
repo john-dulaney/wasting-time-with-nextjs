@@ -1,10 +1,14 @@
-import Link from "next/link";
+import Header from "../components/Header";
+
 
 export default () => (
     <main>
+        <Header />
         <h1>Contact Info</h1>
-    <Link href="/">
-      <a>See index.js</a>
-    </Link>
+        <style jsx>{`
+        margin-top: 80px;
+        padding: 30px;
+        `}
+        </style>
     </main>
   )
