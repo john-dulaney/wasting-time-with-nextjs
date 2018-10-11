@@ -2,19 +2,28 @@ import Link from "next/link";
 
 export default () => (
     <nav>
-        <Link href="/" class="navItem">
-            <a>Home</a>
-        </Link>
-        <Link href="/about" class="navItem">
-            <a>About</a>
-        </Link>
-        <Link href="/projects" class="navItem">
-            <a>Projects</a>
-        </Link>
-        <Link href="/contact" class="navItem">
-            <a>Contact</a>
-        </Link>
-        
+        <ul id="navList">
+            <li class="listItem">
+                <Link href="/" class="navItem">
+                    <a>Home</a>
+                </Link>
+            </li>
+            <li class="listItem">
+                <Link href="/about" class="navItem">
+                    <a>About</a>
+                </Link>
+            </li>
+            <li class="listItem">
+                <Link href="/projects" class="navItem">
+                    <a>Projects</a>
+                </Link>
+            </li>
+            <li class="listItem">
+                <Link href="/contact" class="navItem">
+                    <a>Contact</a>
+                </Link>
+            </li>
+        </ul>
     <style jsx>{`
       nav {
         background-color: white;
@@ -32,11 +41,11 @@ export default () => (
         display: inline;
     }
 
-    .navItem {
+    .listItem {
         margin: 20px;
     }
 
-    .navItem a {
+    .listItem a {
         color: black;
         text-decoration: none;
     }

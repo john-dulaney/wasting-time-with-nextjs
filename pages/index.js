@@ -7,7 +7,7 @@ export default () => (
   <main>
     <Header />
     <AboutBody />
-    </main>
-  )
+  </main>
+)
 
 

@@ -1,14 +1,10 @@
 import Header from "../components/Header";
+import ContactBody from "../components/ContactBody";
 
 
 export default () => (
     <main>
         <Header />
-        <h1>Contact Info</h1>
-        <style jsx>{`
-        margin-top: 80px;
-        padding: 30px;
-        `}
-        </style>
+        <ContactBody />
     </main>
   )

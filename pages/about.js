@@ -1,6 +1,7 @@
 import { Component } from "react";
 import AboutBody from "../components/AboutBody";
 import Header from "../components/Header";
+import Error from "../components/Error"
 
 class AboutPage extends Component {
   static getInitialProps() {
@@ -13,15 +14,10 @@ class AboutPage extends Component {
         <Header />
         <section>
           <p>
-            {/* {" "} */}
-            {this.props.isServer ? <AboutBody /> : "Nav is client side, my about page is server side, if you are seeing this reload. Working on how to make the server call on nav route."}
+            {" "}
+            {this.props.isServer ? <AboutBody /> : <Error />}
           </p>
         </section>
-        <style jsx>{`
-        margin-top: 80px;
-        padding: 30px;
-        `}
-        </style>
       </main>
     );
   }
