@@ -42,7 +42,9 @@ export default () => (
     }
 
     .listItem {
-        margin: 20px;
+        margin-right: 20px;
+        list-style: none;
+        float: left;
     }
 
     .listItem a {
