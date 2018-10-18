@@ -1,17 +1,20 @@
 import { Component } from "react";
 import AboutBody from "../components/AboutBody";
 import Header from "../components/Header";
-import Error from "../components/Error"
+import Error from "../components/Error";
+import fetch from "isomorphic-unfetch"
 
 class AboutPage extends Component {
   static getInitialProps() {
     const isServer = typeof window === "undefined";
     return { isServer };
   }
+
+
   render() {
     return (
       <main>
-        <Header />
+        {this.props.isServer ? <Header /> : <Error />}
         <section>
           <p>
             {" "}

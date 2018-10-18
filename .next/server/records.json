@@ -1,0 +1,82 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"next/link\"": 1,
+      "external \"styled-jsx/style\"": 2,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Header.js": 3,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/AboutBody.js": 4,
+      "multi ./pages/about.js": 5,
+      "external \"isomorphic-unfetch\"": 6,
+      "multi ./pages/contact.js": 7,
+      "multi ./pages/index.js": 8,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js": 9,
+      "multi ./pages/projects.js": 10,
+      "multi node_modules/next/dist/pages/_app.js": 11,
+      "node_modules/next/dist/pages/_app.js": 12,
+      "external \"next/app\"": 13,
+      "multi node_modules/next/dist/pages/_error.js": 14,
+      "node_modules/next/dist/pages/_error.js": 15,
+      "external \"next/error\"": 16,
+      "multi node_modules/next/dist/pages/_document.js": 17,
+      "node_modules/next/dist/pages/_document.js": 18,
+      "external \"next/document\"": 19,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/about.js 061c9cd75f59ec43cded030cc524187a": 20,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/contact.js 46448c73e92d3522dd4925ac3c224ddb": 21,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/projects.js d7dab0f1609d43d92f2688199dfc3c5b": 22
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/about.js": 0,
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/contact.js": 1,
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/index.js": 2,
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/projects.js": 3,
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/_app.js": 4,
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/_error.js": 5,
+      "static/DBOlSiNt2Yi8bXuPvXxNP/pages/_document.js": 6,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/about.js": 7,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/contact.js": 8,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/index.js": 9,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/projects.js": 10,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/_app.js": 11,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/_error.js": 12,
+      "static/z3xPm2A7wQO_aXUewnBuE/pages/_document.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      10,
+      11,
+      12,
+      13,
+      7,
+      8,
+      9
+    ]
+  }
+}
